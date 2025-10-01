@@ -15,7 +15,7 @@ export default function AdminMetricas() {
       { name: 'Pizza Margherita', quantity: 12, revenue: 478.80 },
       { name: 'Burger Smash', quantity: 18, revenue: 538.20 },
       { name: 'Açaí 500ml', quantity: 8, revenue: 199.20 },
-      { name: 'Coca-Cola 350ml', quantity: 15, revenue: 90.00 },
+      { name: 'Pepsi 350ml', quantity: 15, revenue: 90.00 },
       { name: 'Brownie de Chocolate', quantity: 6, revenue: 95.40 }
     ]
   };

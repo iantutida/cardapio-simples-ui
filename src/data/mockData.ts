@@ -15,7 +15,6 @@ export const categories = [
   "Todos",
   "Pizzas",
   "Burgers",
-  "Açaís",
   "Bebidas",
   "Sobremesas"
 ];
@@ -44,18 +43,7 @@ export const products: Product[] = [
   },
   {
     id: "3",
-    name: "Açaí 500ml",
-    description: "Açaí puro batido com banana, acompanha granola, banana e mel",
-    price: 24.90,
-    image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&h=600&fit=crop",
-    category: "Açaís",
-    promo_flag: true,
-    promo_banner_title: "Promoção Verão",
-    active: true
-  },
-  {
-    id: "4",
-    name: "Coca-Cola 350ml",
+    name: "Pepsi 350ml",
     description: "Refrigerante gelado",
     price: 6.00,
     image: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=800&h=600&fit=crop",
@@ -64,7 +52,7 @@ export const products: Product[] = [
     active: true
   },
   {
-    id: "5",
+    id: "4",
     name: "Brownie de Chocolate",
     description: "Brownie artesanal com chocolate belga e nozes",
     price: 15.90,
@@ -74,7 +62,7 @@ export const products: Product[] = [
     active: true
   },
   {
-    id: "6",
+    id: "5",
     name: "Pizza Calabresa",
     description: "Molho de tomate, mussarela, calabresa artesanal e cebola",
     price: 42.90,
@@ -107,19 +95,6 @@ export const addonGroups: AddonGroup[] = [
       { id: "a5", name: "Molho Especial", price: 2.00 }
     ]
   },
-  {
-    id: "3",
-    name: "Complementos Açaí (até 3)",
-    min: 0,
-    max: 3,
-    items: [
-      { id: "a6", name: "Granola", price: 0.00 },
-      { id: "a7", name: "Leite em Pó", price: 2.00 },
-      { id: "a8", name: "Morango", price: 3.00 },
-      { id: "a9", name: "Banana", price: 0.00 },
-      { id: "a10", name: "Paçoca", price: 2.50 }
-    ]
-  }
 ];
 
 export const coupons: Coupon[] = [
