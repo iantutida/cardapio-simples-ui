@@ -26,7 +26,7 @@ export const products: Product[] = [
     name: "Pizza Margherita",
     description: "Molho de tomate artesanal, mussarela de búfala, manjericão fresco e azeite extravirgem",
     price: 39.90,
-    image: "/api/placeholder/400/300",
+    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=600&fit=crop",
     category: "Pizzas",
     promo_flag: true,
     promo_banner_title: "Pizza do Dia - 20% OFF",
@@ -37,7 +37,7 @@ export const products: Product[] = [
     name: "Burger Smash",
     description: "Blend 180g smash, queijo cheddar, cebola caramelizada, picles e molho especial",
     price: 29.90,
-    image: "/api/placeholder/400/300",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=600&fit=crop",
     category: "Burgers",
     promo_flag: false,
     active: true
@@ -47,7 +47,7 @@ export const products: Product[] = [
     name: "Açaí 500ml",
     description: "Açaí puro batido com banana, acompanha granola, banana e mel",
     price: 24.90,
-    image: "/api/placeholder/400/300",
+    image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&h=600&fit=crop",
     category: "Açaís",
     promo_flag: true,
     promo_banner_title: "Promoção Verão",
@@ -58,7 +58,7 @@ export const products: Product[] = [
     name: "Coca-Cola 350ml",
     description: "Refrigerante gelado",
     price: 6.00,
-    image: "/api/placeholder/400/300",
+    image: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=800&h=600&fit=crop",
     category: "Bebidas",
     promo_flag: false,
     active: true
@@ -68,7 +68,7 @@ export const products: Product[] = [
     name: "Brownie de Chocolate",
     description: "Brownie artesanal com chocolate belga e nozes",
     price: 15.90,
-    image: "/api/placeholder/400/300",
+    image: "https://images.unsplash.com/photo-1515037893149-de7f840978e2?w=800&h=600&fit=crop",
     category: "Sobremesas",
     promo_flag: false,
     active: true
@@ -78,7 +78,7 @@ export const products: Product[] = [
     name: "Pizza Calabresa",
     description: "Molho de tomate, mussarela, calabresa artesanal e cebola",
     price: 42.90,
-    image: "/api/placeholder/400/300",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&h=600&fit=crop",
     category: "Pizzas",
     promo_flag: false,
     active: true
